@@ -31,7 +31,7 @@ class Item
 
   def self.discount
     if Time.now.month == 1
-      @@discount * 3
+      @@discount * 4
     else
       @@discount
     end
@@ -39,8 +39,31 @@ class Item
 
 # для того, чтобы данный метод учитывал одноимённый метод класса наследующих классов, используем команду self.class
 
-  def price_with_discount
-    @price - @price * self.class.discount
+  def final_price
+    @price - @price * self.class.discount + tax
+  end
+
+# создаём приватный метод для данного класса
+# заводим 2 переменные, которые зависят от условий
+# далее складываем значений 2 переменных, получаем необходимое значение на выходе
+
+  private
+
+  def tax
+    type_tax = if self.class == VirtualItem
+                 1
+               else
+                 2
+               end
+
+    cost_tax = if @price < 5
+                 @price * 0.2
+               else
+                 @price * 0.1
+               end
+
+    type_tax + cost_tax
+
   end
 
 end

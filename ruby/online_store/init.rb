@@ -31,7 +31,9 @@ p item3.respond_to? :weight
 
 p Item.discount
 
-# вызовем метод price_with_discount для объектов класса Item
+# вызовем метод final_price для объектов класса Item
 
-p item1.price_with_discount
-p item3.price_with_discount
+p item1.price
+p item3.price
+p item1.final_price
+p item3.final_price
