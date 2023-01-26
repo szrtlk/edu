@@ -1,35 +1,17 @@
 # создаём класс Cart
-# задан аксессор для аргумента items
+# задан геттер для аргумента items
+# добавляем модуль ItemContainer, предварительно запуская файл с модулем
 # метод initialize задаёт пустой массив
-# второй метод класса добавляет новый элемент массива в конец
-# третий метод класса удаляет последний элемент массива
-# четвёртый метод класса проверяет, есть ли элемента массива со значением price == 0
-# пятый массив удаляет такие элементы массива
 
 class Cart
 
 attr_reader :items
 
+require_relative 'item_container'
+include ItemContainer
+
   def initialize
     @items=[]
-  end
-
-  def add_item(item)
-    @items.push item
-  end
-
-  def remove_item
-    @items.pop
-  end
-
-  def validate
-    @items.each do |i|
-      puts 'Item has no price' if i.price.nil?
-    end
-  end
-
-  def delete_invalid_items
-    @items.delete_if {|i| i.price.nil?}
   end
 
 end

@@ -13,7 +13,7 @@
 * [граничные значения и доменный анализ](2_test_design/2_4_limit_values.md)
 * [диаграммы и таблицы переходов состояний](2_test_design/2_5_state_transition.md)
 * [таблицы принятия решений](2_test_design/2_6_decision_tables.md)
-* [тестирование по пользовательским сценариям](2_test_design/2_7_custom_scripts.md)
+* [тестирование по пользовательским сценариям](2_test_design/2_7_use_cases.md)
 * [составление отчёта о тестировании](2_test_design/2_8_test_report.md)
 * [предугадывание ошибок](2_test_design/2_9_error_prediction.md)
 * [тестовое покрытие](2_test_design/2_10_test_coverage.md)
