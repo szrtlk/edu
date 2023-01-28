@@ -243,7 +243,7 @@
 * например, include ItemContainer::Manager
 * смотри [пример: Интернет-магазин, контейнер товаров](online_store/item_container.rb)
 * смотри [пример: Интернет-магазин, корзина](online_store/cart.rb)
-* смотри [пример: Интернет-магазин, заказы](online_store/orders.rb)
+* смотри [пример: Интернет-магазин, заказы](online_store/order.rb)
 * смотри [пример: Интернет-магазин](online_store/init.rb)
 
 ### Callback на включение модуля
@@ -256,5 +256,5 @@
 * def self.included (classes) / classes.send :include, InstanceMethods
 * смотри [пример: Интернет-магазин, контейнер товаров](online_store/item_container.rb)
 * смотри [пример: Интернет-магазин, корзина](online_store/cart.rb)
-* смотри [пример: Интернет-магазин, заказы](online_store/orders.rb)
+* смотри [пример: Интернет-магазин, заказы](online_store/order.rb)
 * смотри [пример: Интернет-магазин](online_store/init.rb)

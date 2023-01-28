@@ -5,6 +5,7 @@ module ItemContainer
   # создаём вложенный модуль
   # объявляем переменную MinPrice
   # метод класса задаёт значение условия, которое задаёт переменная MinPrice
+  
   module ClassMethods
 
     MinPrice = 100
