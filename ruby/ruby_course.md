@@ -197,8 +197,9 @@
 
 ### Ввод информации от пользователя
 * для ввода информации от пользователя используется команда gets
-* например, puts 'Enter your name' / name = gets / puts 'Hello, ' + name
-* смотри [пример: Wordbook, имя пользователя](wordbook/user_name.rb)
+* чтобы убрать отступ после введённого значения, используется метод .chop
+* например, puts 'Enter your name' / name = gets / puts 'Hello, ' + name,chop + '!'
+* смотри [пример: Wordbook](wordbook/wordbook.rb)
 
 ### Работа с файлами
 * создадим пустой файл block.txt
