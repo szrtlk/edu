@@ -94,7 +94,7 @@ word.add_word('house')
 
 # далее представлен алгоритм работы программы
 # сначала пользователь вводит своё имя
-# далее выбирает 1 из 5 валидных команд
+# далее выбирает 1 из 7 валидных команд
 # в случае использования невалидной команды появляется соответствующее сообщение
 
 puts 'Welcome to Wordbook!'
@@ -129,7 +129,7 @@ elsif action.chop == 'add language'
   puts 'Enter the name of the new language'
   action = gets
   language.add_language(action.chop)
- elsif action.chop == 'add word'
+elsif action.chop == 'add word'
   puts 'Enter the new word'
   action = gets
   word.add_word(action.chop)

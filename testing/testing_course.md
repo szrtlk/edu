@@ -22,7 +22,7 @@
 ### ТЕСТИРОВАНИЕ API
 * [клиент-серверная архитектура](3_api/3_1_csa.md)
 * [REST API](3_api/3_2_rest_api.md)
-* [Soap API](3_api/3_3_soap_api.md)
+* [SOAP API](3_api/3_3_soap_api.md)
 
 ### ТЕСТИРОВАНИЕ ВЕБ-ПРИЛОЖЕНИЙ
 * [основы тестирования веб-приложений](4_web_applications/4_1_basics.md)
