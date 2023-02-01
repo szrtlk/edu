@@ -36,16 +36,6 @@ class RubyTutorial
 
     puts
 
-    # выводим список доступных методов для объекта
-
-    p "1".methods
-    puts
-    p 1.methods
-    puts
-    p [].methods
-
-    puts
-
     # выводим класс объекта
 
     p 1.class
@@ -78,6 +68,42 @@ class RubyTutorial
     p 'SASHA'.downcase
     p 'sasha'.upcase
     p 'sasha eats pasta'.capitalize
+
+    puts
+
+    # преобразование строки в массив из её элементов (символов)
+    # преобразование строки в массив из слов
+
+    string = 'Sasha Masha'
+    p string.chars
+    p string.split
+
+    puts
+
+    # поиск элементов массива по условию
+
+    arr = [1, 2, 3, 4, 5, 6]
+    p arr.find_all{ |num| num.odd? }
+    arr.find_all{ |num| p num.odd? }
+
+    puts
+
+    # реверсия хэша
+    # при использовании метода reverse_each хэш преобразуется в массив, его можно преобразовать в хэш методом .to_h
+
+    fruit_1 = { spring: 'apple', summer: 'pear', autumn: 'mango'}
+    fruit_2 = fruit_1.reverse_each
+    fruit_3 = fruit_1.reverse_each.to_h
+    p fruit_1
+    p fruit_2.to_h
+    p fruit_3
+
+    puts
+
+    # работа с двумерным массивом
+
+    cars = [ ['audi', 'black', 2008] , ['bmw', 'red', 2014] ]
+    cars.each do |car, color, year| puts "car: #{car}, color: #{color}, year: #{year}" end
 
   end
 
