@@ -49,8 +49,8 @@
 * [знакомство с тестовыми фреймворками](7_unit_tests/7_2_test_frameworks.md)
 * [качество тестов](7_unit_tests/7_3_test_quality.md)
 
-### ОПЕРАЦИОННЫЕ СИСТЕМЫ И ВИРТУАЛИЗАЦИЯ (LINUX)
-* [основы Linux, установка системы](8_linux/8_1_basics.md)
+### LINUX
+* [основы Linux](8_linux/8_1_basics.md)
 * [работа с файлами в терминале](8_linux/8_2_files.md)
 * [права доступа и пользователи](8_linux/8_3_users.md)
 * [установка пакетов, репозитории, планировщик Cron](8_linux/8_4_installing.md)
