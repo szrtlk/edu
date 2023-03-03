@@ -48,21 +48,3 @@
 * [цели и смысл тестирования](7_unit_tests/7_1_objectives.md)
 * [знакомство с тестовыми фреймворками](7_unit_tests/7_2_test_frameworks.md)
 * [качество тестов](7_unit_tests/7_3_test_quality.md)
-
-### LINUX
-* [основы Linux](8_linux/8_1_basics.md)
-* [работа с файлами в терминале](8_linux/8_2_files.md)
-* [права доступа и пользователи](8_linux/8_3_users.md)
-* [установка пакетов, репозитории, планировщик Cron](8_linux/8_4_installing.md)
-* [сетевые возможности Linux](8_linux/8_5_network.md)
-* [веб-сервер на Linux](8_linux/8_6_web_server.md)
-* [основы Docker](8_linux/8_7_docker.md)
-* [скрипты Bash](8_linux/8_8_bash_scripts.md)
-
-### ГИБКИЕ МЕТОДОЛОГИИ
-* [гибкие методологии, история возникновения](9_agile/9_1_introduction.md)
-* [Agile](9_agile/9_2_agile.md)
-* [Scrum](9_agile/9_3_scrum.md)
-* [Lean](9_agile/9_4_lean.md)
-* [Kanban](9_agile/9_5_kanban.md)
-* [как выбрать гибкую методологию и не ошибиться](9_agile/9_6_choise.md)
