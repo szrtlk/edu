@@ -30,21 +30,11 @@
 * [инструменты прокси трафика](4_web_applications/4_3_proxy_traffic_tools.md)
 * [тестирование форм](4_web_applications/4_4_form_testing.md)
 
-### ЗНАКОМСТВО С БАЗАМИ ДАННЫХ
-* [знакомство с базами данных](5_databases/5_1_introduction.md)
-* [работа с данными из разных таблиц](5_databases/5_2_tables_data.md)
-* [создание структуры базы данных](5_databases/5_3_database_structure.md)
-* [дополнительные материалы](5_databases/5_4_addition.md)
-
-### БАЗЫ ДАННЫХ И SQL
-* [инструменты для работы с базами данных](6_sql/6_1_database_tools.md)
-* [SQL - создание объектов, изменение данных, логические операторы](6_sql/6_2_sql.md)
-* [SQL - выборка данных, сортировка, агрегатные функции](6_sql/6_3_sql.md)
-* [SQL - объединение таблиц union, соединение - join, подзапросы](6_sql/6_4_sql.md)
-* [SQL - оконные функции](6_sql/6_5_sql.md)
-* [SQL - транзакции, ACID, временные таблицы, управляющие конструкции, циклы](6_sql/6_6_sql.md)
-
 ### UNIT-ТЕСТЫ
-* [цели и смысл тестирования](7_unit_tests/7_1_objectives.md)
-* [знакомство с тестовыми фреймворками](7_unit_tests/7_2_test_frameworks.md)
-* [качество тестов](7_unit_tests/7_3_test_quality.md)
+* [цели и смысл тестирования](5_unit_tests/5_1_objectives.md)
+* [знакомство с тестовыми фреймворками](5_unit_tests/5_2_test_frameworks.md)
+* [качество тестов](5_unit_tests/5_3_test_quality.md)
+* [сквозное тестирование](5_unit_tests/5_4_e2e_testing.md)
+* [библиотека Puppeteer](5_unit_tests/5_5_puppeteer.md)
+* [тестирование с помощью Ruby](5_unit_tests/5_6_ruby_testing.md)
+* [тестирование с помощью JavaScript](5_unit_tests/5_7_javascript_testing.md)

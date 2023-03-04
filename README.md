@@ -3,5 +3,7 @@
 * по Linux
 * по Git
 * по Markdown
+* по SQL
 * по Ruby
+* по JavaScript
 * по тестированию
