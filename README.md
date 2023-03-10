@@ -5,5 +5,7 @@
 * по Markdown
 * по SQL
 * по Ruby
+* по HTML
+* по CSS
 * по JavaScript
 * по тестированию
