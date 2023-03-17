@@ -7,6 +7,5 @@
 * [Ruby](ruby/ruby_course.md)
 * [HTML](other/html_course.txt)
 * [CSS](other/css_course.txt)
-* [CSS, список свойств](other/css_properties.docx)
 * [JavaScript](javascript/javascript_course.md)
 * [тестирование](testing/testing_course.md)
